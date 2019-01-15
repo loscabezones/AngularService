@@ -11,6 +11,7 @@ import { ProfileComponent } from './components/profile/profile.component';
 import { HeaderComponent } from './components/header/header.component';
 import { HomeComponent } from './components/home/home.component';
 import { AutochatComponent } from './components/autochat/autochat.component';
+import { AutochatwithserviceComponent } from './components/autochatwithservice/autochatwithservice.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { AutochatComponent } from './components/autochat/autochat.component';
     ProfileComponent,
     HeaderComponent,
     HomeComponent,
-    AutochatComponent
+    AutochatComponent,
+    AutochatwithserviceComponent
   ],
   imports: [
     FormsModule,
