@@ -7,14 +7,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AutochatComponent implements OnInit {
 
-  defaultText:string;
+  defaultText:string = 'Mensaje';
   model = { message: ''};
 
   constructor() { }
 
-  ngOnInit() {
-    this.defaultText = "Mensaje"
-  }
+  ngOnInit() {}
 
   onSubmit() {
     console.log(this.model.message)
