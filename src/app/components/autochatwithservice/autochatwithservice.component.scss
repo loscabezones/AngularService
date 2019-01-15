@@ -1,0 +1,37 @@
+.container-custom{
+    padding: 0 !important;
+    position: fixed;
+    border: 1px solid black;
+    width: 336px;
+    height: 400px;
+    bottom: 1px;
+    right: 0;
+}
+
+.conversation{
+    width: 100%;
+    height: 85%;
+    padding: 10px 15px;
+    max-height: 336px;
+    overflow-y: auto;
+}
+
+.message{
+    width: 100%;
+    height: 15%;
+    border-top: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-send-custom{
+    height: 38px;
+    margin-left: 5px;
+}
+
+.form-custom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
