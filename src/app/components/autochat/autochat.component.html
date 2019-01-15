@@ -1,11 +1,13 @@
 <div class="container container-custom">
   <div class="conversation">
-    <h5><span class="badge badge-secondary">Mensaje</span></h5>
+    <div *ngFor="let sentence of conversation" >
+      <h5><span class="badge badge-secondary">{{sentence}}</span></h5>
+    </div>
   </div>
   <div class="message">
     <form class="form-signin form-custom" (ngSubmit)="onSubmit()">
-      <input type="text" id="inputtext" class="form-control input-custom" 
-      [placeholder]="defaultText" [(ngModel)]="model.message" name="message">
+      <input type="text" id="inputtext" class="form-control input-custom" [placeholder]="defaultText" [(ngModel)]="model.message"
+        name="message">
       <button type="submit" class="btn btn-info btn-send-custom">Send</button>
     </form>
   </div>
