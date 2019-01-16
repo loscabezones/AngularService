@@ -5,8 +5,13 @@ import { Injectable } from '@angular/core';
 })
 export class MainService {
 
+  conversation:Array<string> = [];
+
   constructor() { }
 
+  getConversation(){
+    return this.conversation;
+  }
 
 
   
