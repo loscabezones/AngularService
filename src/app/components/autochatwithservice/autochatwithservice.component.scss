@@ -1,11 +1,14 @@
+.autochat-title{
+    max-width: 336px;
+    margin: 0 auto;
+    text-align: center;
+}
+
 .container-custom{
     padding: 0 !important;
-    position: fixed;
     border: 1px solid black;
     width: 336px;
     height: 400px;
-    bottom: 1px;
-    right: 0;
 }
 
 .conversation{
