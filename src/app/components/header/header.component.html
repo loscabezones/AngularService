@@ -1,5 +1,5 @@
 <nav class=" footer-custom navbar navbar-expand-md navbar-dark bg-dark fixed-top">
-  <a class="navbar-brand" [routerLink]="['Home']" >Angular Services</a>
+  <a class="navbar-brand" [routerLink]="['Home']">Angular Services</a>
 
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
     aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
@@ -9,14 +9,9 @@
   <div class="collapse navbar-collapse" id="navbarsExampleDefault">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item" routerLinkActive="active">
-        <a class="nav-link" [routerLink]="['Home']" >Home</a>
-      </li>
-      <li class="nav-item" routerLinkActive="active">
-        <a class="nav-link" [routerLink]="['Profile']" >Profile</a>
+        <a class="nav-link" [routerLink]="['Home']">Home</a>
       </li>
     </ul>
- 
-      <div class="btn-custom btn btn-outline-success my-2 my-sm-0">David</div>
-
+    <app-profilemenu></app-profilemenu>
   </div>
 </nav>

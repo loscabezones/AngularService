@@ -14,6 +14,7 @@ import { AutochatComponent } from './components/autochat/autochat.component';
 import { AutochatwithserviceComponent } from './components/autochatwithservice/autochatwithservice.component';
 import { AutochatinputComponent } from './components/autochatinput/autochatinput.component';
 import { AutochatoutputComponent } from './components/autochatoutput/autochatoutput.component';
+import { ProfilemenuComponent } from './components/profilemenu/profilemenu.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { AutochatoutputComponent } from './components/autochatoutput/autochatout
     AutochatComponent,
     AutochatwithserviceComponent,
     AutochatinputComponent,
-    AutochatoutputComponent
+    AutochatoutputComponent,
+    ProfilemenuComponent
   ],
   imports: [
     FormsModule,
